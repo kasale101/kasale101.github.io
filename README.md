@@ -31,3 +31,10 @@
 </body>
 </html>
 kasale 
+body {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+a {
+    color: #1e90ff;
+}
