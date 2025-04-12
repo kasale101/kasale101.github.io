@@ -1,10 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <title>Ignatius Kasale</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+            font-size: 18px;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello, I'm Ignatius Kasale</h1>
-    <p>Welcome to my personal website. I'm passionate about tech and design!</p>
+    <h1>Hi, I'm Ignatius Kasale</h1>
+    <p>Welcome to my personal site! I'm a young creative passionate about tech, design, and making cool stuff.</p>
+    <p>Check out my work on <a href="https://github.com/kasale101" target="_blank">GitHub</a></p>
 </body>
-</html># kasale101.github.io
+</html>
