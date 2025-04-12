@@ -38,3 +38,37 @@ body {
 a {
     color: #1e90ff;
 }
+<nav>
+  <ul class="nav-menu">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav><h2 id="about">About Me</h2>
+...
+<h2 id="projects">Projects</h2>
+...
+<h2 id="contact">Contact</h2>.nav-menu {
+  list-style: none;
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0;
+}
+
+.nav-menu li {
+  display: inline;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline;
+}
